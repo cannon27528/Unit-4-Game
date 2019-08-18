@@ -1,14 +1,16 @@
 #container1 {
-    float: left;
+    font-family: 'Cinzel', serif;
+    float: right;
 	width: 75%;
 	height: 90%px;
 	padding-left: 25%;
 	padding-top: 2%;
     padding-bottom: 1%;
-    margin-right: 500px;
+    margin-right: 325px;
 }
 
 body {
+    font-family: 'Cinzel', serif;
 	background-color: rgb(70, 0, 70);
 	background-size: 75%;
 	border: solid 2px;
@@ -22,7 +24,6 @@ h1{
 	display:inline;
 	clear: both;
 	padding: 10px;
-    margin-bottom: 20px;
     margin-left: 100px;
 	border: solid 1px #ddd;
 	border-radius: 30px;
@@ -32,13 +33,11 @@ h1{
 #wrapper {
     font-family: 'Cinzel', serif;
 	width: 100%
-    max-width:960px;
-	margin: 0 auto;
 }
 
 #instructions {
     font-family: 'Cinzel', serif;
-    color: black;
+    color: white;
     background-color: rgb(156, 133, 0);
 	text-decoration-color: bold, white;
 	width: 85%; 
@@ -46,14 +45,12 @@ h1{
 	padding-right: auto;
 	padding-left: auto;
 	border: solid 1px #ddd
-	border-radius: 30px;
 }
 
 #guessingNumber {
     font-family: 'Cinzel', serif;
     color: white;
 	background-color: rgb(156, 133, 0);
-	float: left;
 	display: inline-block;
 	padding: 10px;
 	margin-top: 20px;
@@ -83,7 +80,7 @@ h1{
 	height: 111px;
 	border: solid 1px;
 	margin-left: 10px;
-	border-radius: 15px;
+    border-radius: 15px;
 }
 
 #Score {
