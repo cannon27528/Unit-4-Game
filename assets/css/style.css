@@ -1,0 +1,104 @@
+#container1 {
+    float: left;
+	width: 75%;
+	height: 90%px;
+	padding-left: 25%;
+	padding-top: 2%;
+    padding-bottom: 1%;
+    margin-right: 500px;
+}
+
+body {
+	background-color: rgb(70, 0, 70);
+	background-size: 75%;
+	border: solid 2px;
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    position: relative;
+	background-color: rgb(156, 133, 0);
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+	border: solid 1px #ddd;
+	border-radius: 30px;
+	font-family: 'Merriweather', serif;
+}
+
+#wrapper {
+    font-family: 'Cinzel', serif;
+	width: 100%
+    max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+    font-family: 'Cinzel', serif;
+    color: black;
+    background-color: rgb(156, 133, 0);
+	text-decoration-color: bold, white;
+	width: 85%; 
+	clear:both;
+	padding-right: auto;
+	padding-left: auto;
+	border: solid 1px #ddd
+	border-radius: 30px;
+}
+
+#guessingNumber {
+    font-family: 'Cinzel', serif;
+    color: white;
+	background-color: rgb(156, 133, 0);
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius :10px;
+}
+
+#scoreboard {
+    font-family: 'Cinzel', serif;
+    color: white;
+	background-color: rgb(156, 133, 0);
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 25px;
+
+}
+
+#crystals {
+	margin-top: 15px;
+    margin-bottom:26px;
+
+
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px;
+	margin-left: 10px;
+	border-radius: 15px;
+}
+
+#Score {
+    font-family: 'Cinzel', serif;
+	margin-bottom: 50px;
+	border-radius: 60px;
+	
+
+}
+
+#totalScore {
+    font-family: 'Cinzel', serif;
+    color: white;
+	background: rgb(156, 133, 0);
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd
+}
